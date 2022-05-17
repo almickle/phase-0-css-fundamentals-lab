@@ -3,3 +3,38 @@ body {
   height: 100%;
   margin: 0;
 }
+header {
+  margin: auto;
+  text-align: center;
+}
+section#featured-property figure img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+header nav a {
+  padding-left: 10px;
+  padding-right: 10px;
+  background: rgba(76, 0, 255, 0.5);
+}
+section#featured-property figure figcaption {
+  margin: auto;
+  font-size: small;
+  text-align: center;
+}
+section#featured-property figure ~ p {
+  width: 800px;
+  margin: auto;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+section#details div {
+  float: left;
+}
+div {
+  background: rgba(76, 0, 255, 0.5);
+  margin: auto;
+  width: 25%;
+  text-align: center;
+}
